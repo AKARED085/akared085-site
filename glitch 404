@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKARED085 - EP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+      background-size: cover;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #00aaff;
+      text-shadow: 0 0 10px red, 0 0 20px blue;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+    .button {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 15px auto;
+      padding: 15px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      color: #fff;
+      background-color: transparent;
+      text-decoration: none;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background-color: #00aaff;
+      color: #000;
+      transform: scale(1.05);
+    }
+    .glitch-icon {
+      width: 60px;
+      margin-top: 40px;
+      filter: contrast(1.2) brightness(1.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>AKARED085</h1>
+  <p>Você recebeu um sinal.</p>
+
+  <a href="/404.html" class="button">Pré-save do EP</a>
+  <a href="/404.html" class="button">Videoclipe</a>
+  <a href="/404.html" class="button">Teaser</a>
+  <a href="/404.html" class="button">Contato</a>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Antenna_icon_with_glitch_effect.png" class="glitch-icon" alt="Ícone Glitch">
+</body>
+</html>
